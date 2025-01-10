@@ -3,8 +3,9 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\img"
+    "\\assets\\img",
+    "\\assets\\img\\portfolio"
   ],
-  "SelectedNode": "\\assets\\img\\hero-bg.jpg",
+  "SelectedNode": "\\portfolio-details.html",
   "PreviewInSolutionExplorer": false
 }
