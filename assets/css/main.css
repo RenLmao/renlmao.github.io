@@ -15,7 +15,7 @@
 }
 
 :root {
-    --nav-color: #272829; /* The default color of the main navmenu links */
+    --nav-color: #000000; /* The default color of the main navmenu links */
     --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
     --nav-mobile-background-color: #040b14; /* Used as the background color for mobile navigation menu */
     --nav-dropdown-background-color: #040b14; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -783,8 +783,4 @@ section,
 .portfolio-details .portfolio-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
-
-.starter-section {
-
 }
