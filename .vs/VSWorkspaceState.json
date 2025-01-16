@@ -4,8 +4,11 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\img",
-    "\\assets\\img\\portfolio"
+    "\\assets\\img\\portfolio",
+    "\\assets\\vendor",
+    "\\assets\\vendor\\php-email-form",
+    "\\forms"
   ],
-  "SelectedNode": "\\portfolio-details.html",
+  "SelectedNode": "\\assets\\css\\main.css",
   "PreviewInSolutionExplorer": false
 }
