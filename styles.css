@@ -119,7 +119,7 @@ footer {
 
 .gallery-item {
     text-align: center;
-    max-width: 200px; /* Limits the size of each gallery item */
+    max-width: 500px; /* Limits the size of each gallery item */
 }
 
 .gallery-image {
