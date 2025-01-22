@@ -3,12 +3,11 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\img",
     "\\assets\\img\\portfolio",
     "\\assets\\vendor",
     "\\assets\\vendor\\php-email-form",
     "\\forms"
   ],
-  "SelectedNode": "\\assets\\css\\main.css",
+  "SelectedNode": "\\styles.css",
   "PreviewInSolutionExplorer": false
 }

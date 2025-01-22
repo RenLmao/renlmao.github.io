@@ -108,3 +108,31 @@ footer {
     color: #fff;
     margin-top: 20px;
 }
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+    max-width: 200px; /* Limits the size of each gallery item */
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-description {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 10px;
+}
+
