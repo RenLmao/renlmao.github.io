@@ -141,22 +141,22 @@ footer {
 }
 
 .back-button {
-    background-color: #e8a4c4;
+    background-color: #e8a4c4 !important;
     border: none;
     border-radius: 50%;
-    padding: 15px 20px; /* Slightly bigger size */
-    font-size: 24px; /* Larger text for better visibility */
+    padding: 15px 20px !important; /* Slightly bigger size */
+    font-size: 24px !important; /* Larger text for better visibility */
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly more prominent shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important; /* Slightly more prominent shadow */
     display: inline-flex;
     justify-content: center;
     align-items: center;
 }
 
     .back-button:hover {
-        background-color: #d88bb8; /* Slightly darker on hover */
-        transform: scale(1.1); /* Slightly enlarge when hovered */
+        background-color: #d88bb8 !important; /* Slightly darker on hover */
+        transform: scale(1.1) !important; /* Slightly enlarge when hovered */
     }
 
     .back-button:focus {
