@@ -786,8 +786,4 @@ section,
 
 .textthing {
     text-align: center; /* Centers the text horizontally */
-    align-items: center; /* Centers content vertically */
-    font-family: var(--default-font); /* Use the default font defined in :root */
-    color: var(--default-color); /* Default text color */
-    padding: 10px; /* Add some padding for better spacing */
 }
