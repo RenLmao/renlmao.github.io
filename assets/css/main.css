@@ -84,6 +84,38 @@ header {
         color: var(--accent-color); /* Hover effect for dropdown links */
     }
 
+/* Image Hover Effect */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+    .image-container img {
+        display: block;
+        width: 100%; /* Adjust based on your image layout */
+        height: auto;
+        transition: opacity 0.3s ease;
+    }
+
+    .image-container .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(131, 30, 123, 0.6); /* Darken effect with accent color */
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .image-container:hover .overlay {
+        opacity: 1; /* Show overlay on hover */
+    }
+
+    .image-container:hover img {
+        opacity: 0.5; /* Darken image on hover */
+    }
+
 /* Footer Styles */
 footer {
     background-color: #333;
