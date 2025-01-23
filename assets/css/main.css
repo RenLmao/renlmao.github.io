@@ -785,6 +785,12 @@ section,
     }
 
 .textthing {
+    text-align: center; /* Centers the text horizontally */
+    display: flex; /* Enables flexbox for advanced alignment */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100%; /* Ensures it fills the container */
+    width: 100%; /* Optional: Ensures it spans the full width of its container */
     font-family: var(--default-font); /* Use the default font defined in :root */
     color: var(--default-color); /* Default text color */
     background-color: var(--surface-color); /* Use the surface color for background */
