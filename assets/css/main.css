@@ -789,13 +789,8 @@ section,
     display: flex; /* Enables flexbox for advanced alignment */
     justify-content: center; /* Centers content horizontally */
     align-items: center; /* Centers content vertically */
-    height: 100%; /* Ensures it fills the container */
-    width: 100%; /* Optional: Ensures it spans the full width of its container */
     font-family: var(--default-font); /* Use the default font defined in :root */
     color: var(--default-color); /* Default text color */
-    background-color: var(--surface-color); /* Use the surface color for background */
     padding: 10px; /* Add some padding for better spacing */
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%); /* Subtle border */
-    border-radius: 5px; /* Rounded corners */
     transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
 }
