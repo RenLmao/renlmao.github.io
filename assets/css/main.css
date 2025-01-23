@@ -784,6 +784,6 @@ section,
         color: color-mix(in srgb, var(--default-color), transparent 30%);
     }
 
-.sitename {
-    margin-top: 20px; /* Increase the value as needed */
+    .sitename {
+  margin-top: 20px; /* Increase the value as needed */
 }
