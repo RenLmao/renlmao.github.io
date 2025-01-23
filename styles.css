@@ -141,20 +141,25 @@ footer {
 }
 
 .back-button {
-    background-color: #f0f0f0;
+    background-color: #e8a4c4;
     border: none;
     border-radius: 50%;
-    padding: 10px 15px;
-    font-size: 20px;
+    padding: 15px 20px; /* Slightly bigger size */
+    font-size: 24px; /* Larger text for better visibility */
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly more prominent shadow */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
     .back-button:hover {
-        background-color: #e0e0e0;
+        background-color: #d88bb8; /* Slightly darker on hover */
+        transform: scale(1.1); /* Slightly enlarge when hovered */
     }
 
     .back-button:focus {
         outline: none;
     }
+
