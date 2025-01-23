@@ -7,6 +7,8 @@
     --link-color: #0077cc;
     --link-hover-color: #005fa3;
     --font-family: 'Arial', sans-serif;
+    --overlay-color: rgba(131, 30, 123, 0.6); /* Overlay color for image hover effect */
+    --transition-duration: 0.3s; /* Transition duration for hover effects */
 }
 
 /* General Styles */
@@ -88,13 +90,14 @@ header {
 .image-container {
     position: relative;
     display: inline-block;
+    overflow: hidden; /* Ensure the overlay is contained within the image */
 }
 
     .image-container img {
         display: block;
         width: 100%; /* Adjust based on your image layout */
         height: auto;
-        transition: opacity 0.3s ease;
+        transition: opacity var(--transition-duration) ease;
     }
 
     .image-container .overlay {
@@ -103,9 +106,10 @@ header {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(131, 30, 123, 0.6); /* Darken effect with accent color */
+        background-color: var(--overlay-color); /* Using the overlay color variable */
         opacity: 0;
-        transition: opacity 0.3s ease;
+        transition: opacity var(--transition-duration) ease;
+        pointer-events: none; /* Prevent overlay from blocking interaction with the image */
     }
 
     .image-container:hover .overlay {
