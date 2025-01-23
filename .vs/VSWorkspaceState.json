@@ -3,11 +3,10 @@
     "",
     "\\assets",
     "\\assets\\css",
+    "\\assets\\img",
     "\\assets\\img\\portfolio",
-    "\\assets\\vendor",
-    "\\assets\\vendor\\php-email-form",
-    "\\forms"
+    "\\assets\\vendor\\php-email-form"
   ],
-  "SelectedNode": "\\styles.css",
+  "SelectedNode": "\\Wifi password cracker.html",
   "PreviewInSolutionExplorer": false
 }
